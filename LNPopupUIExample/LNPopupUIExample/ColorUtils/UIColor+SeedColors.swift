@@ -4,7 +4,7 @@
 //
 //  Created by Leo Natan on 10/31/20.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 
 extension UIColor {
@@ -45,3 +45,4 @@ extension UIColor {
 		}
 	}
 }
+#endif

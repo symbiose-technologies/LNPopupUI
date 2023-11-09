@@ -4,7 +4,7 @@
 //
 //  Created by Leo Natan on 9/3/20.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import UIKit
 import LNPopupController
@@ -112,3 +112,4 @@ internal class LNPopupUICustomPopupBarController : LNPopupCustomBarViewControlle
 		NotificationCenter.default.removeObserver(keyboardObserver2!)
 	}
 }
+#endif

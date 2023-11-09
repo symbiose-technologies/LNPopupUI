@@ -4,7 +4,7 @@
 //
 //  Created by Leo Natan on 01/09/2023.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import CompactSlider
 
@@ -57,3 +57,4 @@ struct CompactSliderDemoView: View {
 #Preview {
 	CompactSliderDemoView() {}
 }
+#endif

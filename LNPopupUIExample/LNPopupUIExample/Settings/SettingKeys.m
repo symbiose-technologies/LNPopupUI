@@ -5,7 +5,7 @@
 //  Created by Leo Natan on 18/03/2017.
 //  Copyright © 2017 Leo Natan. All rights reserved.
 //
-
+#if TARGET_OS_IOS
 #import "SettingKeys.h"
 #import <LNTouchVisualizer/LNTouchVisualizer.h>
 
@@ -91,3 +91,4 @@ void UICollectionViewCell_fix_highglight(void)
 }
 
 @end
+#endif

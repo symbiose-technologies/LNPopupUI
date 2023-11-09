@@ -4,7 +4,7 @@
 //
 //  Created by Leo Natan (Wix) on 9/5/20.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import LoremIpsum
 import LNPopupUI
@@ -82,3 +82,4 @@ struct TabDemoView_Previews: PreviewProvider {
 		TabDemoView(demoContent: DemoContent(), onDismiss: {})
 	}
 }
+#endif

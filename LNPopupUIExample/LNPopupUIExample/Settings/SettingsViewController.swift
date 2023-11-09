@@ -5,7 +5,7 @@
 //  Created by Leo Natan on 02/10/2023.
 //  Copyright © 2023 Leo Natan. All rights reserved.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import LNPopupController
 
@@ -294,3 +294,4 @@ struct SettingsNavView: View {
 		}.frame(minWidth: 320, minHeight: 480)
 	}
 }
+#endif

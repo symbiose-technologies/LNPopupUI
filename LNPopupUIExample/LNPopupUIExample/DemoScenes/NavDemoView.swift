@@ -4,7 +4,7 @@
 //
 //  Created by Leo Natan on 9/5/20.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import LoremIpsum
 import LNPopupUI
@@ -51,3 +51,4 @@ struct NavDemoView_Previews: PreviewProvider {
 		NavDemoView(demoContent: DemoContent(), onDismiss: {})
 	}
 }
+#endif

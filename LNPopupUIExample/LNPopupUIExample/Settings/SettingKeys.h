@@ -5,7 +5,7 @@
 //  Created by Leo Natan on 18/03/2017.
 //  Copyright © 2017 Leo Natan. All rights reserved.
 //
-
+#if TARGET_OS_IOS
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -29,3 +29,4 @@ extern NSString* const __LNPopupBarEnableLayoutDebug;
 extern NSString* const __LNPopupBarDisableDemoSceneColors;
 
 NS_ASSUME_NONNULL_END
+#endif

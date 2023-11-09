@@ -4,7 +4,7 @@
 //
 //  Created by Leo Natan on 8/6/20.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import LNPopupUI
 import LNPopupController
@@ -147,3 +147,4 @@ struct PlayerView_Previews: PreviewProvider {
 		PlayerView(song: RandomTitleSong(id: 12))
 	}
 }
+#endif

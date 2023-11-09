@@ -4,7 +4,7 @@
 //
 //  Created by Leo Natan (Wix) on 9/5/20.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import LNPopupUI
 import LNPopupController
@@ -319,3 +319,5 @@ struct SafeAreaDemoView_Previews: PreviewProvider {
 		SafeAreaDemoView(colorSeed: "colorIndex", colorIndex: 4)
 	}
 }
+
+#endif

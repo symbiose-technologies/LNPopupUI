@@ -5,7 +5,7 @@
 //  Created by Leo Natan on 8/6/20.
 //  
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import UIKit
 
@@ -41,3 +41,4 @@ internal class LNPopupUIContentController<Content> : UIHostingController<Content
 		_ln_interactionLimitRect = view.convert(viewToLimitInteractionTo.bounds, from: viewToLimitInteractionTo)
 	}
 }
+#endif

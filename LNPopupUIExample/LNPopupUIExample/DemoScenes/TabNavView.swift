@@ -4,7 +4,7 @@
 //
 //  Created by Leo Natan on 9/5/20.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import LoremIpsum
 import LNPopupUI
@@ -84,3 +84,4 @@ struct TabNavView_Previews: PreviewProvider {
 		TabNavView(demoContent: DemoContent(), onDismiss: {})
 	}
 }
+#endif

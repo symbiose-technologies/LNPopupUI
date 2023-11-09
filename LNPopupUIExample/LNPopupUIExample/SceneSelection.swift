@@ -4,7 +4,7 @@
 //
 //  Created by Leo Natan on 9/2/20.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import LNPopupUI
 import ActivityView
@@ -179,3 +179,4 @@ struct SceneSelection_Previews: PreviewProvider {
 		SceneSelection()
 	}
 }
+#endif

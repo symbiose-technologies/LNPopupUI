@@ -11,10 +11,10 @@
 		390E563D28F58C64001E8982 /* LNPopupUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390E563C28F58C64001E8982 /* LNPopupUIExampleApp.swift */; };
 		393841D82AA13A2700460600 /* CompactSlider in Frameworks */ = {isa = PBXBuildFile; productRef = 393841D72AA13A2700460600 /* CompactSlider */; };
 		393841DB2AA13BA800460600 /* CompactSliderDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393841DA2AA13BA800460600 /* CompactSliderDemoView.swift */; };
-		394005F52AC2455E00291421 /* LNTouchVisualizer in Frameworks */ = {isa = PBXBuildFile; productRef = 394005F42AC2455E00291421 /* LNTouchVisualizer */; };
+		394005F52AC2455E00291421 /* LNTouchVisualizer in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = 394005F42AC2455E00291421 /* LNTouchVisualizer */; };
 		394005F62AC24BAF00291421 /* LNTouchVisualizer in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 394005F42AC2455E00291421 /* LNTouchVisualizer */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		394215F628F305D500D806A4 /* PopupDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394215F528F305D500D806A4 /* PopupDemoView.swift */; };
-		394E1AAC276C137400C5BE31 /* ActivityView in Frameworks */ = {isa = PBXBuildFile; productRef = 394E1AAB276C137400C5BE31 /* ActivityView */; };
+		394E1AAC276C137400C5BE31 /* ActivityView in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = 394E1AAB276C137400C5BE31 /* ActivityView */; };
 		395781D924DC5D2700A604D1 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395781D824DC5D2700A604D1 /* MusicView.swift */; };
 		395781DB24DC5D2800A604D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395781DA24DC5D2800A604D1 /* Assets.xcassets */; };
 		395781DE24DC5D2800A604D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395781DD24DC5D2800A604D1 /* Preview Assets.xcassets */; };
@@ -33,7 +33,7 @@
 		39AAAA72250415E800E5FD41 /* ViewDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AAAA71250415E800E5FD41 /* ViewDemoView.swift */; };
 		39E18E3C24F059F50096391B /* LNPopupUI in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 39E18E3A24F059F50096391B /* LNPopupUI */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		39E77918250C02B400E80FFF /* LNUIKitPopupContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E77917250C02B400E80FFF /* LNUIKitPopupContentController.swift */; };
-		39F93B352863104000BAE9A9 /* LNPopupUI in Frameworks */ = {isa = PBXBuildFile; productRef = 39E18E3A24F059F50096391B /* LNPopupUI */; };
+		39F93B352863104000BAE9A9 /* LNPopupUI in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = 39E18E3A24F059F50096391B /* LNPopupUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -327,6 +327,7 @@
 /* Begin PBXTargetDependency section */
 		3998CA5A268CE8DF00A60468 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			productRef = 3998CA59268CE8DF00A60468 /* LNPopupUI */;
 		};
 		3998CA5C268CE8E300A60468 /* PBXTargetDependency */ = {
@@ -474,7 +475,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"LNPopupUIExample/Preview Content\"";
-				DEVELOPMENT_TEAM = S9QFG2VH2E;
+				DEVELOPMENT_TEAM = 3U588QPJ72;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = NO;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = LNPopupUIExample/Info.plist;
@@ -483,9 +484,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.LeoNatan.LNPopupUIExample-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeoNatan.LNPopupUIExample-sym";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "LNPopupUIExample/LNPopupUIExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -502,7 +505,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"LNPopupUIExample/Preview Content\"";
-				DEVELOPMENT_TEAM = S9QFG2VH2E;
+				DEVELOPMENT_TEAM = 3U588QPJ72;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = NO;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = LNPopupUIExample/Info.plist;
@@ -511,9 +514,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.LeoNatan.LNPopupUIExample-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeoNatan.LNPopupUIExample-sym";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "LNPopupUIExample/LNPopupUIExample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

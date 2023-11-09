@@ -4,7 +4,7 @@
 //
 //  Created by Leo Natan on 8/6/20.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import UIKit
 import LNPopupController
@@ -42,3 +42,4 @@ internal struct LNPopupState<PopupContent: View> {
 	let barCustomizer: LNPopupEnvironmentConsumer<((LNPopupBar) -> Void)>?
 	let contentViewCustomizer: LNPopupEnvironmentConsumer<((LNPopupContentView) -> Void)>?
 }
+#endif

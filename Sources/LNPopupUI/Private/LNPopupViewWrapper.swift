@@ -5,7 +5,7 @@
 //  Created by Leo Natan on 8/6/20.
 //  
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import UIKit
 import LNPopupController
@@ -94,3 +94,4 @@ internal struct LNPopupUIInteractionContainerBackgroundView : UIViewRepresentabl
 	
 	func updateUIView(_ uiView: LNPopupUIInteractionContainerView, context: Context) { }
 }
+#endif

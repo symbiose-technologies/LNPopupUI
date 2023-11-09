@@ -4,7 +4,7 @@
 //
 //  Created by Leo Natan on 8/6/20.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import LoremIpsum
 import LNPopupUI
@@ -143,3 +143,4 @@ struct ContentView_Previews: PreviewProvider {
 		MusicView(onDismiss: {})
 	}
 }
+#endif

@@ -4,7 +4,7 @@
 //
 //  Created by Leo Natan on 10/14/20.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import WebKit
 
@@ -49,3 +49,4 @@ struct PopupDemoWebView: View {
 		}
 	}
 }
+#endif

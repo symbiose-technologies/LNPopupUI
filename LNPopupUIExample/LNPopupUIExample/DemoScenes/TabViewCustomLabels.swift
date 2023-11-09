@@ -4,7 +4,7 @@
 //
 //  Created by Leo Natan on 9/20/21.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import LoremIpsum
 import LNPopupUI
@@ -60,3 +60,4 @@ struct TabNavViewCustomLabels_Previews: PreviewProvider {
 		TabViewCustomLabels(demoContent: DemoContent(), onDismiss: {})
 	}
 }
+#endif

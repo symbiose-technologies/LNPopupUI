@@ -4,7 +4,7 @@
 //
 //  Created by Leo Natan on 9/3/20.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import MapKit
 
@@ -134,3 +134,4 @@ struct MapView_Previews: PreviewProvider {
 		CustomBarMapView(onDismiss: {})
 	}
 }
+#endif

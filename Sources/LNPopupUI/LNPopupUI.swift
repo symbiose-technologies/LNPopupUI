@@ -5,8 +5,10 @@
 //  Created by Leo Natan on 8/6/20.
 //
 
+#if canImport(UIKit)
 import SwiftUI
 @_exported import LNPopupController
+
 
 @available(iOS 14.0, *)
 public extension ToolbarItemPlacement {
@@ -542,3 +544,5 @@ public extension View {
 		return popupImage(Image(decorative: cgImage, scale: scale, orientation: UIImageOrientationToImageOrientation(orientation)))
 	}
 }
+
+#endif

@@ -11,7 +11,13 @@ import SwiftUI
 struct LNPopupUIExample: App {
 	var body: some Scene {
 		WindowGroup {
+            #if os(iOS)
 			SceneSelection()
-		}
+            #else
+            ZStack {
+                Color.blue
+            }
+            #endif
+        }
 	}
 }

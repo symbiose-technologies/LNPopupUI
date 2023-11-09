@@ -4,7 +4,7 @@
 //
 //  Created by Leo Natan on 9/11/20.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 class LNUIKitPopupContentController : UIViewController {
@@ -26,3 +26,4 @@ class LNUIKitPopupContentController : UIViewController {
 		])
 	}
 }
+#endif

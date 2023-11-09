@@ -4,7 +4,7 @@
 //
 //  Created by Leo Natan (Wix) on 9/5/20.
 //
-
+#if canImport(UIKit)
 import SwiftUI
 import LoremIpsum
 import LNPopupUI
@@ -38,3 +38,4 @@ struct ViewDemoView_Previews: PreviewProvider {
 		ViewDemoView(demoContent: DemoContent(), onDismiss: {})
 	}
 }
+#endif
